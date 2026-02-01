@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Optional grain texture helper */
+.noise {
+  background-image: url("/images/noise.png");
+  background-repeat: repeat;
+}
+
+
+@font-face {
+  font-family: "AnantaFont";
+  src: url("/fonts/Samarkan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ananta-font {
+  font-family: "AnantaFont", serif;
+}
+
+body {
+  overflow-x: 
+  hidden;
+}
+
+@keyframes cloudDrift {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-40px); }
+}
